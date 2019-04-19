@@ -9,10 +9,11 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1AsTBEt60V1EH2ZMRGCs0AWBO7MwVUyTW'
-export_file_name = 'export2.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=17WKByz1RtZgMK8jtb051QHGlmrl3Phfe'
 
-classes = ['Anger and Violence', 'Anxiety and Depression', 'Happiness']
+export_file_name = 'exportcolon.pkl'
+
+classes = ['01_TUMOR', '02_STROMA', '03_COMPLEX', '04_LYMPHO', '05_DEBRIS', '06_MUCOSA', '07_ADIPOSE', '08_EMPTY']
 path = Path(__file__).parent
 
 app = Starlette()
